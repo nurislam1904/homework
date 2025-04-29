@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background: url("image/pexels-photo-337540 (1).png") no-repeat;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0 20px;
+}
+.login_button{
+    width: 110px;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.sec1-box{
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.sec1-box h1{color: white;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.sec1-box p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.sec1-box ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    column-gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration-line: underline;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 58px 10px;
+}
